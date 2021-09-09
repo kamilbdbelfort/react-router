@@ -1,0 +1,21 @@
+## Router
+
+### Steup
+
+Modify index.js to add the Router wrapped around the App.
+
+## App.js => controls the Router
+
+- place a switch
+- register routes
+- routes have a path(url) and the component to render if the url matches
+
+2 types of toutes
+
+- static path="/pokemones"
+- dynamic path="/pokemones/id"
+
+useParams:
+
+- router gives us a hook to read the params the from url
+- we will use this params to fetch specific items by id while reusing the details page
